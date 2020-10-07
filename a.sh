@@ -1,2 +1,2 @@
-$a=$num1+$num2;
-echo $a;
+echo $num1;
+echo $num2;
