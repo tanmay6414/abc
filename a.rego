@@ -45,12 +45,12 @@ input.servers
     "ports": [
       "p1"
     ],
-    "protocols": [
+    #"protocols": [
       "telnet"
     ]
   }
 ]
 
-'''
-input.servers[_].protocols[_] == "http"
-'''
+#'''
+#input.servers[_].protocols[_] == "http"
+#'''
