@@ -51,6 +51,6 @@ input.servers
   }
 ]
 
-/*
-input.servers[_].protocols[_] == "http"
 */
+input.servers[_].protocols[_] == "http"
+/*
