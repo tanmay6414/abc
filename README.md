@@ -1,5 +1,7 @@
 ## This modules contains all the variable related to devk8s
 ### In this folder policy_var.tf contains data required for terraform resource vault_policy
+#### Type of variable is map(object{name=string, policy=string})
+#### If you wish to add a new policy then add new block to variable containing name and policy
 ### Following are the import statement for vault-acl-policies for devk8s
 
 ```
