@@ -1,7 +1,7 @@
 ## This modules contains all the variable related to devk8s
 ### policy_var.tf contains data required for terraform resource vault_policy
 ### Following are the import statement for vault-acl-policies for devk8s
-''''bash
+''''
 terraform import 'module.devk8s.module.acl_policy["devk8s-aws-operator-policy"]'.vault_policy.vault_acl_policy devk8s-aws-operator-policy \
 terraform import 'module.devk8s.module.acl_policy["devk8s-cloudability-policy"]'.vault_policy.vault_acl_policy devk8s-cloudability-policy \
 terraform import 'module.devk8s.module.acl_policy["devk8s-cloudwatch-exporter"]'.vault_policy.vault_acl_policy devk8s-cloudwatch-exporter \
