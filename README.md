@@ -11,3 +11,9 @@ variable "hello_world_alert" {
 
 3. Name of the variable in this file is same as you give in step 1 \
 [Follow this structure](https://github.com/VibrentHealth/alerting-response/blob/d488dfa55d33fb4edc73cc06277e8bed2cfdae44/alerts/newrelicRules/modules/alerts/vars/hello-world-alert.tf#L1)
+
+4. Add your variable name in [```merged-all-var.tf```](https://github.com/VibrentHealth/alerting-response/blob/d488dfa55d33fb4edc73cc06277e8bed2cfdae44/alerts/newrelicRules/modules/alerts/merged-all-var.tf#L2)
+
+5. Finally add them in [```terraform.sh file```]() located in root folder of this repository \
+ https://github.com/VibrentHealth/alerting-response/blob/d488dfa55d33fb4edc73cc06277e8bed2cfdae44/terraform.sh#L11 \
+ https://github.com/VibrentHealth/alerting-response/blob/d488dfa55d33fb4edc73cc06277e8bed2cfdae44/terraform.sh#L17
